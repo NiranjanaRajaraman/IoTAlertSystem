@@ -1,0 +1,3211 @@
+[
+    {
+        "id": "7dc998e13715b431",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "278e480cda9cb581",
+        "type": "group",
+        "z": "7dc998e13715b431",
+        "name": "Apply toggle reply button",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "8d4f16f70eacc1bf",
+            "0394e3b152bd3f38",
+            "805b93f8ca0c4fc7",
+            "01a3f6a4e97134a8",
+            "c6c0f7899b4a0dc4"
+        ],
+        "x": 28,
+        "y": 2653,
+        "w": 1084,
+        "h": 328
+    },
+    {
+        "id": "c6c0f7899b4a0dc4",
+        "type": "group",
+        "z": "7dc998e13715b431",
+        "g": "278e480cda9cb581",
+        "name": "apply Toggle button",
+        "style": {
+            "stroke": "#ffcf3f",
+            "label": true
+        },
+        "nodes": [
+            "177d49ab986e7587",
+            "cf53577b90138f4f",
+            "8a67beedf9bbfe6b",
+            "24b87563d96779c9"
+        ],
+        "x": 54,
+        "y": 2679,
+        "w": 1032,
+        "h": 82
+    },
+    {
+        "id": "a40013ee37817863",
+        "type": "group",
+        "z": "7dc998e13715b431",
+        "name": "Re-publishing my temperature & humidity ",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "4ec81af1cea155ec",
+            "87d2ec6b7957f6a8",
+            "2230d6e4b0b98abb",
+            "09ded4efa7584604",
+            "0983a7a2580ffcb1",
+            "5192e5863608d970",
+            "c193acc90d1b65aa",
+            "063d8b60b2adefd2",
+            "2673a5aeb2a13c15"
+        ],
+        "x": 1074,
+        "y": 59,
+        "w": 612,
+        "h": 282
+    },
+    {
+        "id": "31028c3de37225eb",
+        "type": "group",
+        "z": "7dc998e13715b431",
+        "name": "initializing alarm",
+        "style": {
+            "stroke": "#ffC000",
+            "label": true
+        },
+        "nodes": [
+            "b2f0d8d55ff06b9f",
+            "5f8de90dbc072545",
+            "d881ea3ca5f73c34",
+            "9d27d46ea2591b5e"
+        ],
+        "x": 1174,
+        "y": 2759,
+        "w": 512,
+        "h": 182
+    },
+    {
+        "id": "4493509ea6f18ce3",
+        "type": "group",
+        "z": "7dc998e13715b431",
+        "name": "subscribing to everyones temp and humi and presenting in chart",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "7399bedb6a4c0260",
+            "3f855f9eb3e1061d",
+            "2bc55abc699bea7f",
+            "82b4ae87652152d1",
+            "cf080aa8b63b2dd7",
+            "35109c7ebede9762",
+            "f063f5a9fd8cb63f",
+            "99cbf14a5ef3d95f",
+            "f8c5f0a8a48be658",
+            "938410f6b62b1b5b",
+            "f9fe649195878e90",
+            "5bfbb1d62d6b28d1",
+            "3926da00e41cab32",
+            "c506c4912df38305"
+        ],
+        "x": 74,
+        "y": 399,
+        "w": 1192,
+        "h": 322
+    },
+    {
+        "id": "a87299e88d57a6ca",
+        "type": "group",
+        "z": "7dc998e13715b431",
+        "name": "Getting outdoor temp from openWeatherApi and sending condensation alerts",
+        "style": {
+            "stroke": "#0070c0",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "2bf212ade2212e56",
+            "9244cc0e296697e5",
+            "c4f8c28e62dab1f0",
+            "b57b046cd7e094fb",
+            "b6a061a448a355c1",
+            "50fb91ccefd7d98a",
+            "3f03ed42a43e46b1",
+            "e6da546270490725",
+            "2234700cd77ef458"
+        ],
+        "x": 34,
+        "y": 1879,
+        "w": 1632,
+        "h": 222
+    },
+    {
+        "id": "df81db2a91b8ce98",
+        "type": "group",
+        "z": "7dc998e13715b431",
+        "name": "Replying to call back query ",
+        "style": {
+            "stroke": "#000000",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "7546fdb9b181ce73",
+            "9675df509b5acd77",
+            "d063f1425604068c",
+            "f392cd326077023a",
+            "f59fab3907e78150",
+            "aca5b7b0828db7af",
+            "4b070f052cc95fc0",
+            "8e4beed47a9b0e04",
+            "4b2821a92f28fb7c",
+            "afbd6115a1e94797",
+            "f104dd118d6ee443",
+            "7f8c07df021ab0f8",
+            "f658b109b2a54090",
+            "127bf8283a623581",
+            "8708b009b7d01911"
+        ],
+        "x": 54,
+        "y": 2159,
+        "w": 1592,
+        "h": 442
+    },
+    {
+        "id": "768148f17c27e1be",
+        "type": "group",
+        "z": "7dc998e13715b431",
+        "name": "Last will message capture",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "stroke": "#ffcf3f"
+        },
+        "nodes": [
+            "297a6db398281088",
+            "265175be553fca36",
+            "4a7f5dcac3b7c954",
+            "1459c4df7e1d6991",
+            "6201d9f1babdf035"
+        ],
+        "x": 54,
+        "y": 179,
+        "w": 992,
+        "h": 162
+    },
+    {
+        "id": "49f507d6a4004947",
+        "type": "group",
+        "z": "7dc998e13715b431",
+        "name": "sending the temp and humi alarm based on state",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "829f1ef621e0510e",
+            "30fa2d94fc43d362",
+            "98f6b8c3772102c3",
+            "713e585d0ab960e2",
+            "1d00cf44eb693add",
+            "790caf1bcd69d674",
+            "9aecc5ae08ab9db0",
+            "3b2dded339f33a4a",
+            "61ab63b63d2cf9aa",
+            "c78aedc42dc92d0b",
+            "25d6a584d3dd8fca",
+            "67db59ff6bc25415",
+            "4c3c55b2b3f1c2a4",
+            "01c2a4011f468354",
+            "1b541edd1fa1642e",
+            "b27e4255e0e0c2ab",
+            "94b7145a72af420a",
+            "f7df88a4a9fbc0bb",
+            "741aa05048b4726e",
+            "aa424fa18c93fdf0",
+            "f93647ff7046eb67",
+            "09efd1cbe6b98d72"
+        ],
+        "x": 14,
+        "y": 759,
+        "w": 1652,
+        "h": 422
+    },
+    {
+        "id": "a102b711dbaaf717",
+        "type": "group",
+        "z": "7dc998e13715b431",
+        "name": "sending the temp and humi alarm based on state",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "2144eccc0dcf9989",
+            "6fd844febbc38aab",
+            "e68fb01559f91a0a",
+            "7eb4a7430fa947af",
+            "4fe50a819125e6de",
+            "38a7f44caa8696ee",
+            "cef1853b5bd3830c",
+            "59022901f50a0a79",
+            "1b8b04348498448a",
+            "36619084186387c0",
+            "173f093da9122ab6",
+            "5f8bd805cc045e77",
+            "abf10aed3657c0c6",
+            "50b80cb05ba81f31",
+            "25abec67a2141090",
+            "136d8aac926ee204",
+            "202f94c55858b769",
+            "0656e340c530da4a",
+            "0c3fb257b927c617",
+            "b8a5eb1d298cfd76",
+            "2a537e9ac79a11e8",
+            "3ca801f306150c0d"
+        ],
+        "x": 24,
+        "y": 1259,
+        "w": 1642,
+        "h": 522
+    },
+    {
+        "id": "8d4f16f70eacc1bf",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "278e480cda9cb581",
+        "name": "function 7",
+        "func": "let currentState = global.get(\"condensationAlertEnabled\") || false;\nlet currenStatusLabel = currentState ? \"❌ OFF\" : \"✅ ON\";\nmsg.payload = {\n    chatId: 8143433635,\n    type: 'message',\n    content: \"Reply keyboard is set now\",\n    options: {\n        reply_markup: {\n            keyboard: [\n                [{ text: \"Make \" + \" Condensation Alert \" + currenStatusLabel }]\n            ],\n            resize_keyboard: true\n        }\n    }\n    \n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 2940,
+        "wires": [
+            [
+                "805b93f8ca0c4fc7",
+                "01a3f6a4e97134a8"
+            ]
+        ]
+    },
+    {
+        "id": "0394e3b152bd3f38",
+        "type": "inject",
+        "z": "7dc998e13715b431",
+        "g": "278e480cda9cb581",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 280,
+        "y": 2940,
+        "wires": [
+            [
+                "8d4f16f70eacc1bf"
+            ]
+        ]
+    },
+    {
+        "id": "805b93f8ca0c4fc7",
+        "type": "telegram sender",
+        "z": "7dc998e13715b431",
+        "g": "278e480cda9cb581",
+        "name": "",
+        "bot": "4e370c981fa962ec",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 2880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "01a3f6a4e97134a8",
+        "type": "debug",
+        "z": "7dc998e13715b431",
+        "g": "278e480cda9cb581",
+        "name": "debug 19",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 2940,
+        "wires": []
+    },
+    {
+        "id": "177d49ab986e7587",
+        "type": "telegram receiver",
+        "z": "7dc998e13715b431",
+        "g": "c6c0f7899b4a0dc4",
+        "name": "",
+        "bot": "4e370c981fa962ec",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "hasinput": false,
+        "inputs": 0,
+        "handleallupdates": false,
+        "x": 170,
+        "y": 2720,
+        "wires": [
+            [
+                "cf53577b90138f4f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "cf53577b90138f4f",
+        "type": "switch",
+        "z": "7dc998e13715b431",
+        "g": "c6c0f7899b4a0dc4",
+        "name": "checkToggleMessage",
+        "property": "payload.content",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "Make.*",
+                "vt": "str",
+                "case": true
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 420,
+        "y": 2720,
+        "wires": [
+            [
+                "8a67beedf9bbfe6b"
+            ]
+        ]
+    },
+    {
+        "id": "8a67beedf9bbfe6b",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "c6c0f7899b4a0dc4",
+        "name": "setToggleMessage",
+        "func": "// 1. Get current state and flip it\nlet currentState = global.get(\"condensationAlertEnabled\") || false;\nlet newState = !currentState;\n\n// 2. Save the new state\nglobal.set(\"condensationAlertEnabled\", newState);\n\n// 3. Prepare the new labels\nlet statusLabel = newState ?   \"❌ OFF\": \"✅ ON\";\nlet currenStatusLabel = newState ?    \"✅ ON\": \"❌ OFF\";\nmsg.payload = {\n    chatId: msg.payload.chatId,\n    type: 'message',\n    content: 'Status updated to: ' + currenStatusLabel,\n    options: {\n        reply_markup: {\n            keyboard: [\n                [{ text: \"Make \" +\" Condensation Alert \"+  statusLabel }]\n            ],\n            resize_keyboard: true\n        }\n    }\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 2720,
+        "wires": [
+            [
+                "24b87563d96779c9"
+            ]
+        ]
+    },
+    {
+        "id": "24b87563d96779c9",
+        "type": "telegram sender",
+        "z": "7dc998e13715b431",
+        "g": "c6c0f7899b4a0dc4",
+        "name": "",
+        "bot": "4e370c981fa962ec",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 970,
+        "y": 2720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4ec81af1cea155ec",
+        "type": "mqtt in",
+        "z": "7dc998e13715b431",
+        "g": "a40013ee37817863",
+        "name": "",
+        "topic": "ProIT_IoT/Niranjana/temp",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "2d1dbeb36c40613f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1210,
+        "y": 160,
+        "wires": [
+            [
+                "2230d6e4b0b98abb",
+                "0983a7a2580ffcb1",
+                "5192e5863608d970",
+                "063d8b60b2adefd2"
+            ]
+        ]
+    },
+    {
+        "id": "87d2ec6b7957f6a8",
+        "type": "mqtt in",
+        "z": "7dc998e13715b431",
+        "g": "a40013ee37817863",
+        "name": "",
+        "topic": "ProIT_IoT/Niranjana/humi",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "2d1dbeb36c40613f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1210,
+        "y": 280,
+        "wires": [
+            [
+                "09ded4efa7584604",
+                "0983a7a2580ffcb1",
+                "c193acc90d1b65aa",
+                "2673a5aeb2a13c15"
+            ]
+        ]
+    },
+    {
+        "id": "2230d6e4b0b98abb",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "a40013ee37817863",
+        "name": "setInTemp",
+        "func": "let indoorTemp = msg.payload;\nflow.set(\"inTemp\", indoorTemp);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1470,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "09ded4efa7584604",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "a40013ee37817863",
+        "name": "setInHumi",
+        "func": "let indoorHumi = msg.payload;\nflow.set(\"inHumi\", indoorHumi);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1493.000015258789,
+        "y": 264.66668701171875,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0983a7a2580ffcb1",
+        "type": "mqtt out",
+        "z": "7dc998e13715b431",
+        "g": "a40013ee37817863",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "493a34f517eed570",
+        "x": 1610,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "5192e5863608d970",
+        "type": "ui_gauge",
+        "z": "7dc998e13715b431",
+        "g": "a40013ee37817863",
+        "name": "",
+        "group": "295f55f015ebafd6",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "10",
+        "max": "30",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1590,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "c193acc90d1b65aa",
+        "type": "ui_gauge",
+        "z": "7dc998e13715b431",
+        "g": "a40013ee37817863",
+        "name": "",
+        "group": "60cfecf903fbad14",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "30",
+        "max": "75",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1590,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "b2f0d8d55ff06b9f",
+        "type": "inject",
+        "z": "7dc998e13715b431",
+        "g": "31028c3de37225eb",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "hello",
+        "payloadType": "str",
+        "x": 1270,
+        "y": 2860,
+        "wires": [
+            [
+                "5f8de90dbc072545",
+                "d881ea3ca5f73c34",
+                "9d27d46ea2591b5e"
+            ]
+        ]
+    },
+    {
+        "id": "5f8de90dbc072545",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "31028c3de37225eb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "inTemp",
+                "pt": "flow",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "inHumi",
+                "pt": "flow",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "outTemp",
+                "pt": "flow",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "ignoreCount",
+                "pt": "flow",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1580,
+        "y": 2860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d881ea3ca5f73c34",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "31028c3de37225eb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "highRisk",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "lowRisk",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "normal",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1580,
+        "y": 2900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9d27d46ea2591b5e",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "31028c3de37225eb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "chartHumiHistory",
+                "pt": "flow",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "chartHistory",
+                "pt": "flow",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "humi_payload_obj",
+                "pt": "flow",
+                "to": "[]",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "temp_payload_obj",
+                "pt": "flow",
+                "to": "[]",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "selectedUsersHumi",
+                "pt": "flow",
+                "to": "[]",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "selectedUsers",
+                "pt": "flow",
+                "to": "[]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1580,
+        "y": 2800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7399bedb6a4c0260",
+        "type": "mqtt in",
+        "z": "7dc998e13715b431",
+        "g": "4493509ea6f18ce3",
+        "name": "",
+        "topic": "ProIT_IoT/+/temp",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "493a34f517eed570",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 440,
+        "wires": [
+            [
+                "2bc55abc699bea7f",
+                "f063f5a9fd8cb63f"
+            ]
+        ]
+    },
+    {
+        "id": "3f855f9eb3e1061d",
+        "type": "mqtt in",
+        "z": "7dc998e13715b431",
+        "g": "4493509ea6f18ce3",
+        "name": "",
+        "topic": "ProIT_IoT/+/humi",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "493a34f517eed570",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 620,
+        "wires": [
+            [
+                "f8c5f0a8a48be658",
+                "3926da00e41cab32"
+            ]
+        ]
+    },
+    {
+        "id": "2bc55abc699bea7f",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "4493509ea6f18ce3",
+        "name": "Extract user",
+        "func": "let val= msg.payload;\n\nmsg.payload={\n   user : msg.topic.split(\"/\")[1],\n   temp:val\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 440,
+        "wires": [
+            [
+                "82b4ae87652152d1"
+            ]
+        ]
+    },
+    {
+        "id": "82b4ae87652152d1",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "4493509ea6f18ce3",
+        "name": "Collect users",
+        "func": "\n// Get existing data from memory\n\n// 1. Template is asking for data (on tab switch)\n// if (msg.topic === \"GET_RESTORATION\") {\n//     msg.payload = { payload_obj_list: masterList };\n//     msg.restore = selected;\n//     return msg;\n// }\n\n// // 2. User clicked \"Submit\"\n// if (msg.topic === \"SAVE_SELECTION\") {\n//     const selectedUsers = msg.payload.map(u => u.user); \n//     flow.set(\"selectedUsers\", selectedUsers);\n//     return null; // Stop loop\n// }\n\nlet masterList = flow.get(\"temp_payload_obj\") || [];\nlet selected = flow.get(\"selectedUsers\") || [];\n\n// 3. Normal logic: New user arriving from sensor\nconst targetName = msg.payload.user;\nif (targetName) {\n    if (!(masterList.find(u => u.user === targetName))) {\n        masterList.push(msg.payload);\n        flow.set(\"temp_payload_obj\", masterList);\n    }\n    // Update the UI immediately\n    msg.payload = { payload_obj_list: masterList };\n    msg.restore = selected;\n    return msg;\n}\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 440,
+        "wires": [
+            [
+                "35109c7ebede9762"
+            ]
+        ]
+    },
+    {
+        "id": "cf080aa8b63b2dd7",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "4493509ea6f18ce3",
+        "name": "Save selection",
+        "func": "// const payload_obj_list= flow.get(\"temp_payload_obj\") || [];\n// const targetName = msg.payload.user;\n\n// if(!(payload_obj_list.find(u => u.user === targetName))){\n//     payload_obj_list.push(msg.payload);\n//     flow.set(\"temp_payload_obj\",payload_obj_list);\n//     msg.payload={\n//         payload_obj_list\n//     }\n//     return msg;\n// }\n// return null;\n// Get existing data from memory\nlet masterList = flow.get(\"temp_payload_obj\") || [];\nlet selected = flow.get(\"selectedUsers\") || [];\n\n// 1. Template is asking for data (on tab switch)\nif (msg.topic === \"GET_RESTORATION\") {\n    msg.payload = { payload_obj_list: masterList };\n    msg.restore = selected;\n    return msg;\n}\n\n// 2. User clicked \"Submit\"\nif (msg.topic === \"SAVE_SELECTION\") {\n    let selectedUsers = msg.payload.map(u => u); \n    flow.set(\"selectedUsers\", selectedUsers);\n    return null; // Stop loop\n}\n\n// 3. Normal logic: New user arriving from sensor\n// const targetName = msg.payload.user;\n// if (targetName) {\n//     if (!(masterList.find(u => u.user === targetName))) {\n//         masterList.push(msg.payload);\n//         flow.set(\"temp_payload_obj\", masterList);\n//     }\n//     // Update the UI immediately\n//     msg.payload = { payload_obj_list: masterList };\n//     msg.restore = selected;\n//     return msg;\n// }\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1160,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "35109c7ebede9762",
+        "type": "ui_template",
+        "z": "7dc998e13715b431",
+        "g": "4493509ea6f18ce3",
+        "group": "f3117f407c760b54",
+        "name": "Temperature",
+        "order": 1,
+        "width": 12,
+        "height": 8,
+        "format": "<!-- <div style=\"font-family:Arial, sans-serif;\">\n  <label>Select Users:</label>\n\n  <div style=\"border:1px solid #ddd; max-height:300px; overflow-y:auto; padding:6px; background:#f9f9f9;\">\n    <div ng-repeat=\"u in users track by u.user\" style=\"display:flex; align-items:center; gap:6px; margin-bottom:4px;\">\n      <md-checkbox ng-model=\"selected[u.user]\" ng-change=\"updateSelection()\"></md-checkbox>\n      <span>{{u.user}}</span>\n    </div>\n    <div ng-if=\"!users || users.length === 0\" style=\"color:#888;\">No users available</div>\n  </div>\n\n  <div style=\"margin-top:6px; display:flex; gap:6px;\">\n    <md-button ng-click=\"selectAll()\">Select All</md-button>\n    <md-button ng-click=\"clearAll()\">Clear All</md-button>\n    <md-button class=\"md-raised md-primary\" ng-click=\"submit()\">Submit</md-button>\n  </div>\n</div>\n\n<script>\n(function(scope) {\n\n    scope.users = scope.users || [];\n    scope.selected = scope.selected || {};\n\n    // Watch for incoming messages safely\n    scope.$watch('msg', function(newMsg) {\n        if (newMsg && newMsg.payload && newMsg.payload.payload_obj_list && Array.isArray(newMsg.payload.payload_obj_list)) {\n            scope.users = newMsg.payload.payload_obj_list;\n\n            // Initialize selection for new users only\n            scope.users.forEach(u => {\n                if (scope.selected[u.user] === undefined) {\n                    scope.selected[u.user] = false;\n                }\n            });\n\n            // // Send current selection immediately\n            // scope.updateSelection();\n        }\n    });\n\n    // Send selected users immediately\n    // scope.updateSelection = function() {\n    //     const chosen = scope.users.filter(u => scope.selected[u.user]);\n    //     scope.send({ payload: chosen });\n        \n    // };\n\n    // Select all users and send\n    scope.selectAll = function() {\n        scope.users.forEach(u => scope.selected[u.user] = true);\n        scope.updateSelection();\n    };\n\n    // Clear all users and send\n    scope.clearAll = function() {\n        scope.users.forEach(u => scope.selected[u.user] = false);\n        scope.updateSelection();\n    };\n    scope.submit = function() {\n    const chosen = scope.users.filter(u => scope.selected[u.user]);\n\n    // Send ONLY on submit\n    scope.send({ payload: chosen });\n  };\n\n\n})(scope);\n</script> -->\n<div style=\"font-family:Arial, sans-serif;\" ng-init=\"init()\"> <label>Select Users:</label>\n\n  <div style=\"border:1px solid #ddd; max-height:300px; overflow-y:auto; padding:6px; background:#f9f9f9;\">\n    <div ng-repeat=\"u in users track by u.user\" style=\"display:flex; align-items:center; gap:6px; margin-bottom:4px;\">\n      <md-checkbox ng-model=\"selected[u.user]\"></md-checkbox>\n      <span>{{u.user}}</span>\n    </div>\n    <div ng-if=\"!users || users.length === 0\" style=\"color:#888;\">No users available</div>\n  </div>\n\n  <div style=\"margin-top:6px; display:flex; gap:6px;\">\n    <md-button ng-click=\"selectAll()\">Select All</md-button>\n    <md-button ng-click=\"clearAll()\">Clear All</md-button>\n    <md-button class=\"md-raised md-primary\" ng-click=\"submit()\">Submit</md-button>\n  </div>\n</div>\n\n<script>\n(function(scope) {\n    scope.users = [];\n    scope.selected = {};\n    var initialized = false; // Flag to prevent overwriting manual clicks\n\n    scope.init = function() {\n        scope.send({ topic: \"GET_RESTORATION\" });\n    };\n\n    scope.$watch('msg', function(newMsg) {\n        if (!newMsg) return;\n\n        // 1. Update the user list\n        if (newMsg.payload && newMsg.payload.payload_obj_list) {\n            scope.users = newMsg.payload.payload_obj_list;\n        }\n\n        // 2. ONLY restore from memory if it's the first load OR an explicit restore\n        if (newMsg.restore && (!initialized || newMsg.topic === \"GET_RESTORATION\")) {\n            scope.selected = {}; \n            newMsg.restore.forEach(function(username) {\n                scope.selected[username] = true;\n            });\n            initialized = true; // Mark as loaded\n        }\n\n        // 3. Ensure new users appearing in the list don't break things\n        scope.users.forEach(function(u) {\n            if (scope.selected[u.user] === undefined) {\n                scope.selected[u.user] = false;\n            }\n        });\n    });\n\n    scope.selectAll = function() {\n        scope.users.forEach(function(u) { scope.selected[u.user] = true; });\n    };\n\n    scope.clearAll = function() {\n        scope.users.forEach(function(u) { scope.selected[u.user] = false; });\n    };\n\n    scope.submit = function() {\n        var chosen = [];\n        for (var user in scope.selected) {\n            if (scope.selected[user] === true) {\n                chosen.push(user);\n            }\n        }\n        scope.send({ payload: chosen, topic: \"SAVE_SELECTION\" });\n    };\n})(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 950,
+        "y": 440,
+        "wires": [
+            [
+                "cf080aa8b63b2dd7"
+            ]
+        ]
+    },
+    {
+        "id": "f063f5a9fd8cb63f",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "4493509ea6f18ce3",
+        "name": "filterTopic",
+        "func": "// const selectedUsers = flow.get(\"selectedUsers\") || [];\n// const user = msg.topic.split(\"/\")[1]; // extract username from topic\n// if (selectedUsers.includes(user)){\n//     msg.linewidth=1;\n//     return msg; \n// }   \n// return null;\n\nconst selectedUsers = flow.get(\"selectedUsers\") || [];\n\nif (!selectedUsers.length) {\n    flow.set(\"chartHistory\", {});\n    return [[ { payload: [] } ]]; \n}\n\nconst user = msg.topic.split(\"/\")[1]; \nconst currentTime = new Date().getTime();\nconst oneHourAgo = currentTime - (1 * 60 * 60 * 1000);\n\n// 1. Get existing history or start fresh\nlet history = flow.get(\"chartHistory\") || {};\n\nif (selectedUsers.includes(user)) {\n    // 2. Add the new point to this user's history\n    if (!history[user]) history[user] = [];\n    history[user].push({ x: currentTime, y: msg.payload });\n\n    // 3. Clean up: Remove points older than 1 hour to keep it fast\n    history[user] = history[user].filter(p => p.x > oneHourAgo);\n    flow.set(\"chartHistory\", history);\n\n    // 4. Prepare the data package for the chart\n    const allSeries = [];\n    const allData = [];\n\n    selectedUsers.forEach((u) => {\n        allSeries.push(u);\n        // If a user has no data yet, send an empty array []\n        allData.push(history[u] || []);\n    });\n\n    // 5. The Messages\n    const clearMsg = { payload: [] }; // Wipe\n    const dataMsg = {\n        payload: [{\n            series: allSeries,\n            data: allData,\n            labels: [\"Users\"]\n        }]\n    };\n\n    return [[clearMsg, dataMsg]];\n}\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 520,
+        "wires": [
+            [
+                "99cbf14a5ef3d95f"
+            ]
+        ]
+    },
+    {
+        "id": "99cbf14a5ef3d95f",
+        "type": "ui_chart",
+        "z": "7dc998e13715b431",
+        "g": "4493509ea6f18ce3",
+        "name": "",
+        "group": "c0053c88ef0efbd2",
+        "order": 2,
+        "width": 12,
+        "height": 8,
+        "label": "Temperature chart",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 730,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f8c5f0a8a48be658",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "4493509ea6f18ce3",
+        "name": "Extract user",
+        "func": "let val= msg.payload;\n\nmsg.payload={\n   user : msg.topic.split(\"/\")[1],\n   humi:val\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 620,
+        "wires": [
+            [
+                "938410f6b62b1b5b"
+            ]
+        ]
+    },
+    {
+        "id": "938410f6b62b1b5b",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "4493509ea6f18ce3",
+        "name": "Collect users",
+        "func": "let masterList = flow.get(\"humi_payload_obj\") || [];\nlet selected = flow.get(\"selectedUsersHumi\") || [];\n\n// 1. Template is asking for data (on tab switch)\nif (msg.topic === \"GET_RESTORATION\") {\n    msg.payload = { payload_obj_list: masterList };\n    msg.restore = selected;\n    return msg;\n}\n\n// 2. User clicked \"Submit\"\nif (msg.topic === \"SAVE_SELECTION\") {\n    const selectedUsers = msg.payload.map(u => u.user); \n    flow.set(\"selectedUsersHumi\", selectedUsers);\n    return null; // Stop loop\n}\n\n// 3. Normal logic: New user arriving from sensor\nconst targetName = msg.payload.user;\nif (targetName) {\n    if (!(masterList.find(u => u.user === targetName))) {\n        masterList.push(msg.payload);\n        flow.set(\"humi_payload_obj\", masterList);\n    }\n    // Update the UI immediately\n    msg.payload = { payload_obj_list: masterList };\n    msg.restore = selected;\n    return msg;\n}\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 620,
+        "wires": [
+            [
+                "f9fe649195878e90"
+            ]
+        ]
+    },
+    {
+        "id": "f9fe649195878e90",
+        "type": "ui_template",
+        "z": "7dc998e13715b431",
+        "g": "4493509ea6f18ce3",
+        "group": "f3117f407c760b54",
+        "name": "Humidity",
+        "order": 11,
+        "width": 12,
+        "height": 8,
+        "format": "<div style=\"font-family:Arial, sans-serif;\">\n  <label>Select Users:</label>\n\n  <div style=\"border:1px solid #ddd; max-height:300px; overflow-y:auto; padding:6px; background:#f9f9f9;\">\n    <div ng-repeat=\"u in users track by u.user\" style=\"display:flex; align-items:center; gap:6px; margin-bottom:4px;\">\n      <md-checkbox ng-model=\"selected[u.user]\" ng-change=\"updateSelection()\"></md-checkbox>\n      <span>{{u.user}}</span>\n    </div>\n    <div ng-if=\"!users || users.length === 0\" style=\"color:#888;\">No users available</div>\n  </div>\n\n  <div style=\"margin-top:6px; display:flex; gap:6px;\">\n    <md-button ng-click=\"selectAll()\">Select All</md-button>\n    <md-button ng-click=\"clearAll()\">Clear All</md-button>\n    <md-button class=\"md-raised md-primary\" ng-click=\"submit()\">Submit</md-button>\n  </div>\n</div>\n\n<script>\n(function(scope) {\n    scope.users = [];\n    scope.selected = {};\n    var initialized = false; // Flag to prevent overwriting manual clicks\n\n    scope.init = function() {\n        scope.send({ topic: \"GET_RESTORATION\" });\n    };\n\n    scope.$watch('msg', function(newMsg) {\n        if (!newMsg) return;\n\n        // 1. Update the user list\n        if (newMsg.payload && newMsg.payload.payload_obj_list) {\n            scope.users = newMsg.payload.payload_obj_list;\n        }\n\n        // 2. ONLY restore from memory if it's the first load OR an explicit restore\n        if (newMsg.restore && (!initialized || newMsg.topic === \"GET_RESTORATION\")) {\n            scope.selected = {}; \n            newMsg.restore.forEach(function(username) {\n                scope.selected[username] = true;\n            });\n            initialized = true; // Mark as loaded\n        }\n\n        // 3. Ensure new users appearing in the list don't break things\n        scope.users.forEach(function(u) {\n            if (scope.selected[u.user] === undefined) {\n                scope.selected[u.user] = false;\n            }\n        });\n    });\n\n    scope.selectAll = function() {\n        scope.users.forEach(function(u) { scope.selected[u.user] = true; });\n    };\n\n    scope.clearAll = function() {\n        scope.users.forEach(function(u) { scope.selected[u.user] = false; });\n    };\n\n    scope.submit = function() {\n        var chosen = [];\n        for (var user in scope.selected) {\n            if (scope.selected[user] === true) {\n                chosen.push(user);\n            }\n        }\n        scope.send({ payload: chosen, topic: \"SAVE_SELECTION\" });\n    };\n})(scope);\n</script>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 940,
+        "y": 620,
+        "wires": [
+            [
+                "5bfbb1d62d6b28d1"
+            ]
+        ]
+    },
+    {
+        "id": "5bfbb1d62d6b28d1",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "4493509ea6f18ce3",
+        "name": "Save selection",
+        "func": "let masterList = flow.get(\"humi_payload_obj\") || [];\nlet selected = flow.get(\"selectedUsersHumi\") || [];\n\n// 1. Template is asking for data (on tab switch)\nif (msg.topic === \"GET_RESTORATION\") {\n    msg.payload = { payload_obj_list: masterList };\n    msg.restore = selected;\n    return msg;\n}\n\n// 2. User clicked \"Submit\"\nif (msg.topic === \"SAVE_SELECTION\") {\n    const selectedUsers = msg.payload.map(u => u); \n    flow.set(\"selectedUsersHumi\", selectedUsers);\n    return null; // Stop loop\n}\n\n// 3. Normal logic: New user arriving from sensor\nconst targetName = msg.payload.user;\nif (targetName) {\n    if (!(masterList.find(u => u.user === targetName))) {\n        masterList.push(msg.payload);\n        flow.set(\"humi_payload_obj\", masterList);\n    }\n    // Update the UI immediately\n    msg.payload = { payload_obj_list: masterList };\n    msg.restore = selected;\n    return msg;\n}\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1160,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3926da00e41cab32",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "4493509ea6f18ce3",
+        "name": "filterTopic",
+        "func": "// const selectedUsers = flow.get(\"selectedUsers\") || [];\n// const user = msg.topic.split(\"/\")[1]; // extract username from topic\n// if (selectedUsers.includes(user)){\n//     msg.linewidth=1;\n//     return msg; \n// }   \n// return null;\n\n// 1. CHANGE: The flow variable name for your list of users\nconst selectedUsers = flow.get(\"selectedUsersHumi\") || [];\nif (!selectedUsers.length) {\n    flow.set(\"chartHumiHistory\", {});\n    return [[ { payload: [] } ]]; \n} \n\nconst user = msg.topic.split(\"/\")[1];\n \nconst currentTime = new Date().getTime();\nconst oneHourAgo = currentTime - (1 * 60 * 60 * 1000);\n\n// 2. CHANGE: The flow variable name for the DATA history (consistent spelling is key!)\nlet history = flow.get(\"chartHumiHistory\") || {}; \n\nif (selectedUsers.includes(user)) {\n    if (!history[user]) history[user] = [];\n    history[user].push({ x: currentTime, y: msg.payload });\n\n    history[user] = history[user].filter(p => p.x > oneHourAgo);\n    \n    // 3. CHANGE: Save back to the SAME history name used in step 2\n    flow.set(\"chartHumiHistory\", history); \n\n    const allSeries = [];\n    const allData = [];\n\n    selectedUsers.forEach((u) => {\n        allSeries.push(u);\n        allData.push(history[u] || []);\n    });\n\n    const clearMsg = { payload: [] }; \n    const dataMsg = {\n        payload: [{\n            series: allSeries,\n            data: allData,\n            labels: [\"Humidity %\"] // You can change this label too\n        }],\n        // This keeps the Y-axis from squashing your lines\n        options: {\n            scales: {\n                yAxes: [{\n                    ticks: { beginAtZero: false }\n                }]\n            }\n        }\n    };\n\n    return [[clearMsg, dataMsg]];\n}\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 680,
+        "wires": [
+            [
+                "c506c4912df38305"
+            ]
+        ]
+    },
+    {
+        "id": "c506c4912df38305",
+        "type": "ui_chart",
+        "z": "7dc998e13715b431",
+        "g": "4493509ea6f18ce3",
+        "name": "",
+        "group": "c0053c88ef0efbd2",
+        "order": 11,
+        "width": 12,
+        "height": 9,
+        "label": "Humidity chart",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 720,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2bf212ade2212e56",
+        "type": "inject",
+        "z": "7dc998e13715b431",
+        "g": "a87299e88d57a6ca",
+        "name": "get Outdoor weather",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1200",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 2060,
+        "wires": [
+            [
+                "2234700cd77ef458"
+            ]
+        ]
+    },
+    {
+        "id": "9244cc0e296697e5",
+        "type": "http request",
+        "z": "7dc998e13715b431",
+        "g": "a87299e88d57a6ca",
+        "name": "OpenWeather API",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.openweathermap.org/data/2.5/weather?lat=52.4179881&lon=13.6264025903263&units=metric&appid=28e1c645d6e7e4daa3c054886fe6e8f3",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 470,
+        "y": 1980,
+        "wires": [
+            [
+                "c4f8c28e62dab1f0"
+            ]
+        ]
+    },
+    {
+        "id": "c4f8c28e62dab1f0",
+        "type": "json",
+        "z": "7dc998e13715b431",
+        "g": "a87299e88d57a6ca",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 630,
+        "y": 1980,
+        "wires": [
+            [
+                "b57b046cd7e094fb",
+                "50fb91ccefd7d98a"
+            ]
+        ]
+    },
+    {
+        "id": "b57b046cd7e094fb",
+        "type": "debug",
+        "z": "7dc998e13715b431",
+        "g": "a87299e88d57a6ca",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "b6a061a448a355c1",
+        "type": "telegram sender",
+        "z": "7dc998e13715b431",
+        "g": "a87299e88d57a6ca",
+        "name": "",
+        "bot": "4e370c981fa962ec",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1550,
+        "y": 1980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "50fb91ccefd7d98a",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "a87299e88d57a6ca",
+        "name": "setOutTemp",
+        "func": "let outdoorTemp = msg.payload.main.temp;\nflow.set(\"outTemp\", outdoorTemp);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 1980,
+        "wires": [
+            [
+                "3f03ed42a43e46b1"
+            ]
+        ]
+    },
+    {
+        "id": "3f03ed42a43e46b1",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "a87299e88d57a6ca",
+        "name": "Send condensation alert",
+        "func": "let inTemp = flow.get(\"inTemp\");\nlet inHumi = flow.get(\"inHumi\");\nlet outTemp = flow.get(\"outTemp\");\n\nif (!inTemp || !inHumi || !outTemp){\n    msg.payload =\"Cannot measure the condensation level\";\n    return msg;\n}\n\n// HIGH RISK\nif (inHumi >= 70 && inTemp >= 19 && outTemp <= 5) {\n    if(flow.get(\"highRisk\")== false){\n        flow.set(\"highRisk\",true);\n        flow.set(\"lowRisk\", false);\n        flow.set(\"normal\", false);\n\n        msg.payload =\n        \"🔴 High Condensation Risk\\n\\n\" +\n        \"🏠 Indoor: \" + inTemp + \"°C | humidity: \" + inHumi.toFixed(2) + \"%\\n\" +\n        \"🌤️ Outdoor: \" + outTemp + \"°C\\n\\n\" ;\n        return msg;\n    }\n    \n    \n}\n\n// LOW RISK\nelse if (inHumi >= 60 && inHumi < 70 && inTemp >= 18 && outTemp <= 5) {\n    if(flow.get(\"lowRisk\")==false){\n        flow.set(\"highRisk\",false);\n        flow.set(\"lowRisk\", true);\n        flow.set(\"normal\", false);\n        msg.payload =\n        \"🟡 Low Condensation Risk\\n\\n\" +\n        \"🏠 Indoor: \" + inTemp + \"°C | humidity: \" + inHumi.toFixed(2) + \"%\\n\" +\n        \"🌤️ Outdoor: \" + outTemp + \"°C\\n\\n\" ;\n        return msg;\n    }\n    \n    \n}\n\n// NORMAL\n// (Optional message or just return null to stay silent)\nelse if(flow.get(\"normal\")==false){\n    flow.set(\"highRisk\",false);\n    flow.set(\"lowRisk\", false);\n    flow.set(\"normal\", true);\n    msg.payload =\n    \"🟢 Normal now \\n\\n\" +\n    \"🏠 Indoor: \" + inTemp + \"°C | humidity: \" + inHumi.toFixed(2) + \"%\\n\" +\n    \"🌤️ Outdoor: \" + outTemp + \"°C\\n\\n\" +\n    \"No risk of condensation now\";\n    return msg;\n}\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 1980,
+        "wires": [
+            [
+                "e6da546270490725"
+            ]
+        ]
+    },
+    {
+        "id": "e6da546270490725",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "a87299e88d57a6ca",
+        "name": "modify Message Payload",
+        "func": "let message_text= msg.payload;\nif (flow.get(\"highRisk\")== true || flow.get(\"lowRisk\")==true){\nmsg.payload = {\n    chatId:8143433635,\n    type: \"message\",\n    content: message_text,\n    options: {\n        reply_markup: {\n            inline_keyboard: [\n                [{ text: \"💡 Show Tips\", callback_data: \"showtips\" }],\n                [{ text: \"I am ventilating now!\", callback_data: \"ventilating\" }],\n                [{ text: \"Ignore\", callback_data: \"ignore\" }]\n            ]\n        }\n    }\n};\n}\nelse if(flow.get(\"normal\")== true){\n  msg.payload = {\n    chatId:8143433635,\n    type: \"message\",\n    content: message_text,\n    options: {\n        reply_markup: {\n            inline_keyboard: [\n                [{ text: \"💡 Show Tips\", callback_data: \"showtips\" }]\n            ]\n        }\n    }\n};  \n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 1980,
+        "wires": [
+            [
+                "b6a061a448a355c1"
+            ]
+        ]
+    },
+    {
+        "id": "2234700cd77ef458",
+        "type": "switch",
+        "z": "7dc998e13715b431",
+        "g": "a87299e88d57a6ca",
+        "name": "",
+        "property": "condensationAlertEnabled",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 290,
+        "y": 1980,
+        "wires": [
+            [
+                "9244cc0e296697e5"
+            ]
+        ]
+    },
+    {
+        "id": "7546fdb9b181ce73",
+        "type": "telegram receiver",
+        "z": "7dc998e13715b431",
+        "g": "df81db2a91b8ce98",
+        "name": "",
+        "bot": "4e370c981fa962ec",
+        "saveDataDir": "",
+        "filterCommands": true,
+        "hasinput": true,
+        "inputs": 1,
+        "handleallupdates": true,
+        "x": 170,
+        "y": 2260,
+        "wires": [
+            [
+                "9675df509b5acd77",
+                "4b2821a92f28fb7c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9675df509b5acd77",
+        "type": "debug",
+        "z": "7dc998e13715b431",
+        "g": "df81db2a91b8ce98",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "d063f1425604068c",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "df81db2a91b8ce98",
+        "name": "replyShowtips",
+        "func": "\nlet text=\"\";\nlet id= msg.payload.chatId;    \ntext =\n        \"💡 Tips to avoid condensation risk!\\n\\n\"+\n        \"• Ventilate 5–7 minutes for high risk\\n\" +\n        \"• Short ventilation recommended for low risk\\n\" +\n        \"• Keep your furniture away from the walls\\n\" +\n        \"• Try purchasing a dehumidifier\\n\"+\n        \"• Avoid drying clothes indoors\\n\" +\n        \"• Heat rooms evenly\\n\\n\"+\n        \"🟢 Optimal Conditions\\n\" +\n        \"  Try to maintain:\\n\"+\n        \"• Ideal humidity: 40–60%\\n\" +\n        \"• Temperature: 20–22°C\\n\" ;\n    \n\nmsg.payload = {\n        chatId: id,\n        type: \"message\",\n        content: text\n};\n\n    \n\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 2280,
+        "wires": [
+            [
+                "f392cd326077023a",
+                "aca5b7b0828db7af"
+            ]
+        ]
+    },
+    {
+        "id": "f392cd326077023a",
+        "type": "telegram sender",
+        "z": "7dc998e13715b431",
+        "g": "df81db2a91b8ce98",
+        "name": "",
+        "bot": "4e370c981fa962ec",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1350,
+        "y": 2340,
+        "wires": [
+            [
+                "f59fab3907e78150"
+            ]
+        ]
+    },
+    {
+        "id": "f59fab3907e78150",
+        "type": "debug",
+        "z": "7dc998e13715b431",
+        "g": "df81db2a91b8ce98",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1540,
+        "y": 2340,
+        "wires": []
+    },
+    {
+        "id": "aca5b7b0828db7af",
+        "type": "debug",
+        "z": "7dc998e13715b431",
+        "g": "df81db2a91b8ce98",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "4b070f052cc95fc0",
+        "type": "switch",
+        "z": "7dc998e13715b431",
+        "g": "df81db2a91b8ce98",
+        "name": "filterCallBackQuery",
+        "property": "payload.content",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "showtips",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "ventilating",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "ignore",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 710,
+        "y": 2320,
+        "wires": [
+            [
+                "d063f1425604068c"
+            ],
+            [
+                "8e4beed47a9b0e04"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "8e4beed47a9b0e04",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "df81db2a91b8ce98",
+        "name": "replyVentilating",
+        "func": "\nlet text=\"\";\nlet id= msg.payload.chatId;    \ntext =\n        \"👍 Great! you are opening the window. I am monitoring the humidity.\"\n\nmsg.payload = {\n        chatId: id,\n        type: \"message\",\n        content: text\n};\n\n    \n\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 2340,
+        "wires": [
+            [
+                "f392cd326077023a",
+                "afbd6115a1e94797"
+            ]
+        ]
+    },
+    {
+        "id": "4b2821a92f28fb7c",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "df81db2a91b8ce98",
+        "name": "checkPayloadType",
+        "func": "if ( msg.payload.type != \"callback_query\") {\n    return null; // ignore normal messages\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 2320,
+        "wires": [
+            [
+                "4b070f052cc95fc0"
+            ]
+        ]
+    },
+    {
+        "id": "afbd6115a1e94797",
+        "type": "link out",
+        "z": "7dc998e13715b431",
+        "g": "df81db2a91b8ce98",
+        "name": "link out 2",
+        "mode": "link",
+        "links": [
+            "f104dd118d6ee443"
+        ],
+        "x": 1165,
+        "y": 2280,
+        "wires": []
+    },
+    {
+        "id": "f104dd118d6ee443",
+        "type": "link in",
+        "z": "7dc998e13715b431",
+        "g": "df81db2a91b8ce98",
+        "name": "link in 2",
+        "links": [
+            "afbd6115a1e94797"
+        ],
+        "x": 485,
+        "y": 2560,
+        "wires": [
+            [
+                "7f8c07df021ab0f8"
+            ]
+        ]
+    },
+    {
+        "id": "7f8c07df021ab0f8",
+        "type": "trigger",
+        "z": "7dc998e13715b431",
+        "g": "df81db2a91b8ce98",
+        "name": "",
+        "op1": "",
+        "op2": "",
+        "op1type": "nul",
+        "op2type": "payl",
+        "duration": "2",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "min",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 690,
+        "y": 2560,
+        "wires": [
+            [
+                "f658b109b2a54090",
+                "127bf8283a623581"
+            ]
+        ]
+    },
+    {
+        "id": "f658b109b2a54090",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "df81db2a91b8ce98",
+        "name": "monitor humidity",
+        "func": "let text=\"\";\nlet id= msg.payload.chatId;\nlet humidity = flow.get(\"inHumi\");   \nlet SAFE_HUMIDITY = 55;\nif(flow.get(\"normal\")==false){\n    flow.set(\"highRisk\",false);\n    flow.set(\"lowRisk\", false);\n    flow.set(\"normal\", true);\n}\ntext = \"✅ Humidity is safe. Ventilation monitoring stopped.\";\nif (humidity <= SAFE_HUMIDITY) {\n    msg.reset = true;   // ⬅️ STOP trigger\n    \n    msg.payload = {\n        chatId: id,\n        type: \"message\",\n        content: text\n};\n    return msg;\n}\n\n\n\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 2560,
+        "wires": [
+            [
+                "f392cd326077023a",
+                "8708b009b7d01911"
+            ]
+        ]
+    },
+    {
+        "id": "127bf8283a623581",
+        "type": "debug",
+        "z": "7dc998e13715b431",
+        "g": "df81db2a91b8ce98",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 2520,
+        "wires": []
+    },
+    {
+        "id": "8708b009b7d01911",
+        "type": "debug",
+        "z": "7dc998e13715b431",
+        "g": "df81db2a91b8ce98",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 2560,
+        "wires": []
+    },
+    {
+        "id": "297a6db398281088",
+        "type": "function",
+        "z": "7dc998e13715b431",
+        "g": "768148f17c27e1be",
+        "name": "lastWillAlarmCheck",
+        "func": "let status = msg.payload.status;\nlet client_id = msg.payload.client_id;\n\nif (status == \"offline\" ){\n    flow.set(\"lastWillOnlineAlarm\", false);\n        msg={\n                payload: client_id+\" is \"+ status+\" !\"\n            }\n        return msg;    \n    }\n    \n\nelse{\n    flow.set(\"lastWillOnlineAlarm\",true);\n    \n        msg={\n                payload: client_id+\" is \"+ status+\" !\"\n            }\n        return msg;\n    \n    \n    \n    }\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 300,
+        "wires": [
+            [
+                "265175be553fca36"
+            ]
+        ]
+    },
+    {
+        "id": "265175be553fca36",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "768148f17c27e1be",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.content",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.type",
+                "pt": "msg",
+                "to": "message",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.chatId",
+                "pt": "msg",
+                "to": "8143433635",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 700,
+        "y": 300,
+        "wires": [
+            [
+                "4a7f5dcac3b7c954"
+            ]
+        ]
+    },
+    {
+        "id": "4a7f5dcac3b7c954",
+        "type": "telegram sender",
+        "z": "7dc998e13715b431",
+        "g": "768148f17c27e1be",
+        "name": "",
+        "bot": "4e370c981fa962ec",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 930,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1459c4df7e1d6991",
+        "type": "debug",
+        "z": "7dc998e13715b431",
+        "g": "768148f17c27e1be",
+        "name": "debug 21",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "6201d9f1babdf035",
+        "type": "mqtt in",
+        "z": "7dc998e13715b431",
+        "g": "768148f17c27e1be",
+        "name": "",
+        "topic": "ProIT_IoT/Niranjana/status",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "2d1dbeb36c40613f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 300,
+        "wires": [
+            [
+                "297a6db398281088",
+                "1459c4df7e1d6991"
+            ]
+        ]
+    },
+    {
+        "id": "829f1ef621e0510e",
+        "type": "switch",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "TempSwitch",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "27",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "30",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 190,
+        "y": 920,
+        "wires": [
+            [
+                "1d00cf44eb693add"
+            ],
+            [
+                "713e585d0ab960e2"
+            ]
+        ]
+    },
+    {
+        "id": "30fa2d94fc43d362",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "changeAlarm",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hotalarm",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "coldalarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "normalalarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 980,
+        "wires": [
+            [
+                "01c2a4011f468354"
+            ]
+        ]
+    },
+    {
+        "id": "98f6b8c3772102c3",
+        "type": "string",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "setWarmMessage",
+        "methods": [
+            {
+                "name": "append",
+                "params": [
+                    {
+                        "type": "str",
+                        "value": "! ALERT!🔴 Temperature is too high "
+                    }
+                ]
+            }
+        ],
+        "prop": "payload",
+        "propout": "payload",
+        "object": "msg",
+        "objectout": "msg",
+        "x": 710,
+        "y": 980,
+        "wires": [
+            [
+                "30fa2d94fc43d362"
+            ]
+        ]
+    },
+    {
+        "id": "713e585d0ab960e2",
+        "type": "switch",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "HotAlarm",
+        "property": "hotalarm",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 500,
+        "y": 980,
+        "wires": [
+            [
+                "98f6b8c3772102c3"
+            ]
+        ]
+    },
+    {
+        "id": "1d00cf44eb693add",
+        "type": "switch",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "15",
+                "vt": "str"
+            },
+            {
+                "t": "gt",
+                "v": "17",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 330,
+        "y": 880,
+        "wires": [
+            [
+                "790caf1bcd69d674"
+            ],
+            [
+                "9aecc5ae08ab9db0"
+            ]
+        ]
+    },
+    {
+        "id": "790caf1bcd69d674",
+        "type": "switch",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "ColdAlarm",
+        "property": "coldalarm",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 530,
+        "y": 860,
+        "wires": [
+            [
+                "3b2dded339f33a4a"
+            ]
+        ]
+    },
+    {
+        "id": "9aecc5ae08ab9db0",
+        "type": "switch",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "NormalAlarm",
+        "property": "normalalarm",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 530,
+        "y": 900,
+        "wires": [
+            [
+                "61ab63b63d2cf9aa"
+            ]
+        ]
+    },
+    {
+        "id": "3b2dded339f33a4a",
+        "type": "string",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "setColdMessage",
+        "methods": [
+            {
+                "name": "append",
+                "params": [
+                    {
+                        "type": "str",
+                        "value": "! ALERT ! 🔴Temperature is  too low"
+                    }
+                ]
+            }
+        ],
+        "prop": "payload",
+        "propout": "payload",
+        "object": "msg",
+        "objectout": "msg",
+        "x": 710,
+        "y": 860,
+        "wires": [
+            [
+                "c78aedc42dc92d0b"
+            ]
+        ]
+    },
+    {
+        "id": "61ab63b63d2cf9aa",
+        "type": "string",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "setNormalMessage",
+        "methods": [
+            {
+                "name": "append",
+                "params": [
+                    {
+                        "type": "str",
+                        "value": "! ALERT!🟢 Temperature is normal now "
+                    }
+                ]
+            }
+        ],
+        "prop": "payload",
+        "propout": "payload",
+        "object": "msg",
+        "objectout": "msg",
+        "x": 730,
+        "y": 900,
+        "wires": [
+            [
+                "25d6a584d3dd8fca"
+            ]
+        ]
+    },
+    {
+        "id": "c78aedc42dc92d0b",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "changeAlarm",
+        "rules": [
+            {
+                "t": "set",
+                "p": "coldalarm",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "hotalarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "normalalarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 860,
+        "wires": [
+            [
+                "67db59ff6bc25415"
+            ]
+        ]
+    },
+    {
+        "id": "25d6a584d3dd8fca",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "changeAlarm",
+        "rules": [
+            {
+                "t": "set",
+                "p": "normalalarm",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "hotalarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "coldalarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 900,
+        "wires": [
+            [
+                "67db59ff6bc25415"
+            ]
+        ]
+    },
+    {
+        "id": "67db59ff6bc25415",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.content",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.type",
+                "pt": "msg",
+                "to": "message",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.chatId",
+                "pt": "msg",
+                "to": "8143433635",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1280,
+        "y": 880,
+        "wires": [
+            [
+                "4c3c55b2b3f1c2a4"
+            ]
+        ]
+    },
+    {
+        "id": "4c3c55b2b3f1c2a4",
+        "type": "telegram sender",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "",
+        "bot": "4e370c981fa962ec",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1530,
+        "y": 880,
+        "wires": [
+            [
+                "f93647ff7046eb67"
+            ]
+        ]
+    },
+    {
+        "id": "01c2a4011f468354",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.content",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.type",
+                "pt": "msg",
+                "to": "message",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.chatId",
+                "pt": "msg",
+                "to": "8143433635",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1280,
+        "y": 960,
+        "wires": [
+            [
+                "1b541edd1fa1642e"
+            ]
+        ]
+    },
+    {
+        "id": "1b541edd1fa1642e",
+        "type": "telegram sender",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "",
+        "bot": "4e370c981fa962ec",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1530,
+        "y": 960,
+        "wires": [
+            [
+                "aa424fa18c93fdf0"
+            ]
+        ]
+    },
+    {
+        "id": "b27e4255e0e0c2ab",
+        "type": "inject",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "hello",
+        "payloadType": "str",
+        "x": 250,
+        "y": 1060,
+        "wires": [
+            [
+                "94b7145a72af420a",
+                "f7df88a4a9fbc0bb",
+                "741aa05048b4726e"
+            ]
+        ]
+    },
+    {
+        "id": "94b7145a72af420a",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hotalarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f7df88a4a9fbc0bb",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "coldalarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "741aa05048b4726e",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "normalalarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aa424fa18c93fdf0",
+        "type": "debug",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "debug 64",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1480,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "f93647ff7046eb67",
+        "type": "debug",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "debug 66",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1560,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "063d8b60b2adefd2",
+        "type": "link out",
+        "z": "7dc998e13715b431",
+        "g": "a40013ee37817863",
+        "name": "link out 3",
+        "mode": "link",
+        "links": [
+            "09efd1cbe6b98d72"
+        ],
+        "x": 1395,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "2673a5aeb2a13c15",
+        "type": "link out",
+        "z": "7dc998e13715b431",
+        "g": "a40013ee37817863",
+        "name": "link out 4",
+        "mode": "link",
+        "links": [
+            "3ca801f306150c0d"
+        ],
+        "x": 1355,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "09efd1cbe6b98d72",
+        "type": "link in",
+        "z": "7dc998e13715b431",
+        "g": "49f507d6a4004947",
+        "name": "link in 3",
+        "links": [
+            "063d8b60b2adefd2"
+        ],
+        "x": 55,
+        "y": 920,
+        "wires": [
+            [
+                "829f1ef621e0510e"
+            ]
+        ]
+    },
+    {
+        "id": "2144eccc0dcf9989",
+        "type": "switch",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "HumiSwitch",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "60",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "70",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 190,
+        "y": 1420,
+        "wires": [
+            [
+                "4fe50a819125e6de",
+                "136d8aac926ee204"
+            ],
+            [
+                "7eb4a7430fa947af"
+            ]
+        ]
+    },
+    {
+        "id": "6fd844febbc38aab",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "changeAlarm",
+        "rules": [
+            {
+                "t": "set",
+                "p": "highalarm",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "lowalarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "normalhumialarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1070,
+        "y": 1540,
+        "wires": [
+            [
+                "50b80cb05ba81f31"
+            ]
+        ]
+    },
+    {
+        "id": "e68fb01559f91a0a",
+        "type": "string",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "SetHighAlert",
+        "methods": [
+            {
+                "name": "append",
+                "params": [
+                    {
+                        "type": "str",
+                        "value": "! ALERT!🔴 Humidity is too high"
+                    }
+                ]
+            }
+        ],
+        "prop": "payload",
+        "propout": "payload",
+        "object": "msg",
+        "objectout": "msg",
+        "x": 810,
+        "y": 1540,
+        "wires": [
+            [
+                "6fd844febbc38aab"
+            ]
+        ]
+    },
+    {
+        "id": "7eb4a7430fa947af",
+        "type": "switch",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "checkHighAlarm",
+        "property": "highalarm",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 580,
+        "y": 1540,
+        "wires": [
+            [
+                "e68fb01559f91a0a"
+            ]
+        ]
+    },
+    {
+        "id": "4fe50a819125e6de",
+        "type": "switch",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "20",
+                "vt": "str"
+            },
+            {
+                "t": "gt",
+                "v": "30",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 410,
+        "y": 1420,
+        "wires": [
+            [
+                "38a7f44caa8696ee"
+            ],
+            [
+                "cef1853b5bd3830c"
+            ]
+        ]
+    },
+    {
+        "id": "38a7f44caa8696ee",
+        "type": "switch",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "checkLowAlarm",
+        "property": "lowalarm",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 620,
+        "y": 1380,
+        "wires": [
+            [
+                "59022901f50a0a79",
+                "202f94c55858b769"
+            ]
+        ]
+    },
+    {
+        "id": "cef1853b5bd3830c",
+        "type": "switch",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "checkNormalAlarm",
+        "property": "normalhumialarm",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 610,
+        "y": 1460,
+        "wires": [
+            [
+                "1b8b04348498448a"
+            ]
+        ]
+    },
+    {
+        "id": "59022901f50a0a79",
+        "type": "string",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "setLowAlert",
+        "methods": [
+            {
+                "name": "append",
+                "params": [
+                    {
+                        "type": "str",
+                        "value": "! ALERT !🔴 Humidity is  too low"
+                    }
+                ]
+            }
+        ],
+        "prop": "payload",
+        "propout": "payload",
+        "object": "msg",
+        "objectout": "msg",
+        "x": 810,
+        "y": 1380,
+        "wires": [
+            [
+                "36619084186387c0"
+            ]
+        ]
+    },
+    {
+        "id": "1b8b04348498448a",
+        "type": "string",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "SetNormalAlert",
+        "methods": [
+            {
+                "name": "append",
+                "params": [
+                    {
+                        "type": "str",
+                        "value": "! ALERT!🟢 Humidity is normal now"
+                    }
+                ]
+            }
+        ],
+        "prop": "payload",
+        "propout": "payload",
+        "object": "msg",
+        "objectout": "msg",
+        "x": 820,
+        "y": 1460,
+        "wires": [
+            [
+                "173f093da9122ab6"
+            ]
+        ]
+    },
+    {
+        "id": "36619084186387c0",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "changeAlarm",
+        "rules": [
+            {
+                "t": "set",
+                "p": "lowalarm",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "highalarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "normalhumialarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1070,
+        "y": 1380,
+        "wires": [
+            [
+                "5f8bd805cc045e77"
+            ]
+        ]
+    },
+    {
+        "id": "173f093da9122ab6",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "changeAlarm",
+        "rules": [
+            {
+                "t": "set",
+                "p": "normalhumialarm",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "highalarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "lowalarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1070,
+        "y": 1460,
+        "wires": [
+            [
+                "5f8bd805cc045e77"
+            ]
+        ]
+    },
+    {
+        "id": "5f8bd805cc045e77",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.content",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.type",
+                "pt": "msg",
+                "to": "message",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.chatId",
+                "pt": "msg",
+                "to": "8143433635",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1320,
+        "y": 1460,
+        "wires": [
+            [
+                "abf10aed3657c0c6"
+            ]
+        ]
+    },
+    {
+        "id": "abf10aed3657c0c6",
+        "type": "telegram sender",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "",
+        "bot": "4e370c981fa962ec",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1550,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "50b80cb05ba81f31",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.content",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.type",
+                "pt": "msg",
+                "to": "message",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.chatId",
+                "pt": "msg",
+                "to": "8143433635",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1320,
+        "y": 1540,
+        "wires": [
+            [
+                "25abec67a2141090"
+            ]
+        ]
+    },
+    {
+        "id": "25abec67a2141090",
+        "type": "telegram sender",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "",
+        "bot": "4e370c981fa962ec",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1550,
+        "y": 1540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "136d8aac926ee204",
+        "type": "debug",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "debug 24",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 310,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "202f94c55858b769",
+        "type": "debug",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "debug 22",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "0656e340c530da4a",
+        "type": "inject",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "hello",
+        "payloadType": "str",
+        "x": 270,
+        "y": 1660,
+        "wires": [
+            [
+                "0c3fb257b927c617",
+                "b8a5eb1d298cfd76",
+                "2a537e9ac79a11e8"
+            ]
+        ]
+    },
+    {
+        "id": "0c3fb257b927c617",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "highalarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 1660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b8a5eb1d298cfd76",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "lowalarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 1700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a537e9ac79a11e8",
+        "type": "change",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "normalhumialarm",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 1740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3ca801f306150c0d",
+        "type": "link in",
+        "z": "7dc998e13715b431",
+        "g": "a102b711dbaaf717",
+        "name": "link in 4",
+        "links": [
+            "2673a5aeb2a13c15"
+        ],
+        "x": 65,
+        "y": 1420,
+        "wires": [
+            [
+                "2144eccc0dcf9989"
+            ]
+        ]
+    },
+    {
+        "id": "4e370c981fa962ec",
+        "type": "telegram bot",
+        "botname": "HTW_nira_bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "testenvironment": false,
+        "updatemode": "polling",
+        "pollinterval": 300,
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": 6667,
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbothost": "0.0.0.0",
+        "localbotport": 8443,
+        "publicbotport": 8443,
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "2d1dbeb36c40613f",
+        "type": "mqtt-broker",
+        "name": "brokerSecurity",
+        "broker": "localhost",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "493a34f517eed570",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.f4.htw-berlin.de",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "295f55f015ebafd6",
+        "type": "ui_group",
+        "name": "My Temperature",
+        "tab": "0970165ca9b7f185",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "60cfecf903fbad14",
+        "type": "ui_group",
+        "name": "My Humidity",
+        "tab": "0970165ca9b7f185",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f3117f407c760b54",
+        "type": "ui_group",
+        "name": "Template",
+        "tab": "417470b7e6e0176a",
+        "order": 3,
+        "disp": true,
+        "width": 13,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c0053c88ef0efbd2",
+        "type": "ui_group",
+        "name": "chart",
+        "tab": "417470b7e6e0176a",
+        "order": 4,
+        "disp": true,
+        "width": 13,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0970165ca9b7f185",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "417470b7e6e0176a",
+        "type": "ui_tab",
+        "name": "Everybody's Data",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "20f31dfdfe2bc717",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-contrib-telegrambot": "17.0.3",
+            "node-red-dashboard": "3.6.6",
+            "node-red-contrib-string": "1.0.0"
+        }
+    }
+]
